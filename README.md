@@ -13,13 +13,17 @@
 ## Description
 This is a community based app established to provide healthcare solutions to low and middle income households with a 
 ## Installation Requirements
-    #### text-editor of your choice preferably vs-code
-    #### version control tool, git
-    #### web browser preferably google-chrome
+   <li><em>text-editor of your choice preferably vs-code</em>
+   </li>
+   <li><em>version control tool, git</em></li>
+   <li><em>web browser preferably google-chrome</em></li>
+    
 
 ## Set up instructions
-    #### clone the repository to your local machine.
-    #### open the index.html file using your preferred web browser.
+
+<li><em> clone the repository to your local machine.</em></li>
+<li><em> open the index.html file using your preferred web browser.
+</em></li>
 
 
 ## Known Bugs
