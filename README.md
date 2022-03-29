@@ -14,7 +14,8 @@
 This is a community based app established to provide healthcare solutions to low and middle income households with access to high quality healthcare.
 
 #### Screenshots
-![HOME](screenshots/Screenshot%202022-03-29%20092906.png)
+
+![HOME](/screenshots/Screenshot%202022-03-29%20092906.png)
 ## Installation Requirements
    <li><em>text-editor of your choice preferably vs-code</em>
    </li>
