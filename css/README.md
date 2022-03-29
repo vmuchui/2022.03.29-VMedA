@@ -13,11 +13,20 @@
 ## Description
 This is a community based app established to provide healthcare solutions to low and middle income households with a 
 ## Installation Requirements
-    #### text -editor of your choice preferably vs-code
-    #### git -version control tool
+    #### text-editor of your choice preferably vs-code
+    #### version control tool, git
+    #### web browser preferably google-chrome
+
+## Set up instructions
+    #### clone the repository to your local machine.
+    #### open the index.html file using your preferred web browser.
+
 
 ## Known Bugs
-<li><em>the navigation bar appears below the images in the body therefore making it accessible only in certain parts of the website.</em></li>
+<li><em>the navigation bar appears below the images in the body therefore making it accessible only in certain parts of the website.
+</em></li>
+
+
 ## Technologies Used
 
 <li><em>Html/css - webpage layout design<em></li>
