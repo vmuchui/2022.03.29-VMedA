@@ -20,6 +20,7 @@ This is a community based app established to provide healthcare solutions to low
 ![OUR SERVICES](/screenshots/Screenshot%202022-03-29%20093219.png)
 ![HOME](/screenshots/Screenshot%202022-03-29%20093301.png)
 ![HOME](/screenshots/Screenshot%202022-03-29%20093329.png)
+![HOME](/screenshots/Screenshot%202022-03-29%20101500.png)
 ![HOME](/screenshots/Screenshot%202022-03-29%20101825.png)
 ## Installation Requirements
    <li><em>text-editor of your choice preferably vs-code</em>
