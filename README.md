@@ -6,7 +6,7 @@
 * [**EMMANUEL WAITHAKA**](https://github.com/EmmanuelWaithaka/)
 * [**HORRACE MUENDO**](https://github.com/Horrace254/)
 * [**FORTUNE BAMJI**](https://github.com/Forttim/Forttim)
-* [**STEPHEN NJIHIA**](https://github.com/)
+* [**STEPHEN NJIHIA**](https://github.com/jaybird1982/)
 * [**VICTOR MUCHUI**](https://github.com/vmuchui/)
 
 
