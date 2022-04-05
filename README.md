@@ -39,6 +39,8 @@ This is a community based app established to provide healthcare solutions to low
 ## Known Bugs
 <li><em>the navigation bar appears below the images in the body therefore making it accessible only in certain parts of the website.
 </em></li>
+<li><em>the map does not load.
+</em></li>
 
 
 ## Technologies Used
