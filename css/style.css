@@ -3,25 +3,30 @@
 *Description : This is a responsive HTML & Bootstrap template developed by Victor Muchui, Emmanuel Waithaka, Margaret Githinji, Horrace Muendo, Fortune Bamji, Stephen Njihia.
 ****/
 
+* {
+  box-sizing: border-box;
+}
 :root {
   font-size: 16px;
-  font-family: "Open Sans";
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
   --transition-speed: 600ms;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  background-color: white;
+  font-family: "BenchNine", sans-serif;
+  overflow: -moz-hidden-unscrollable;
+}
 main {
   opacity: 100%;
 }
 
-body {
-  color: black;
-  background-color: white;
-  margin: 0;
-  padding: 0;
-}
 
 body::-webkit-scrollbar {
   width: 0.25rem;
@@ -219,13 +224,35 @@ main {
   display: block;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "BenchNine", sans-serif;
-}
 li {
   list-style: none;
+}
+
+.scroll-up {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(47, 43, 92);
+  bottom: 10px;
+  right: 10px;
+  position: fixed;
+  cursor: pointer;
+  border-radius: 30%;
+  box-shadow: 0px 0px 20px black;
+
+  transform: scale(0.8);
+  transition: 0.3s ease-in-out transform;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.scroll-up:hover {
+  transform: scale(1);
+}
+.scroll-up svg {
+  width: 50%;
+  pointer-events: none;
 }
 a:hover,
 a:visited,
@@ -293,7 +320,8 @@ h2 {
   /* Standard syntax */
 }
 .item {
-  position: relative;
+  position: inherit;
+  text-decoration-color: white;
 }
 .carousel-caption {
   position: absolute;
