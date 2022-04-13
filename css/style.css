@@ -49,7 +49,10 @@ body::-webkit-scrollbar-thumb {
 
 main {
   padding-top: 0px;
-  margin-left: 10rem;
+  margin-left: 12rem;
+}
+main:hover {
+    margin-left: 5rem;
 }
 
 .navbar {
@@ -1286,5 +1289,6 @@ responsive area
   }
   .footer p {
     font-size: 10px;
+    padding-left: 15rem;
   }
 }
