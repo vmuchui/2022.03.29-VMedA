@@ -50,6 +50,7 @@ body::-webkit-scrollbar-thumb {
 main {
   padding-top: 0px;
   margin-left: 12rem;
+  transition: 0.4s ease-in-out;
 }
 main:hover {
     margin-left: 5rem;
@@ -261,9 +262,43 @@ li {
   transform: scale(1);
 }
 .scroll-up svg {
-  width: 50%;
+ width: 50%;
   pointer-events: none;
+} 
+.scroll-up svg::before,
+.scroll-up svg::after {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  border: 3px solid hsla(316, 45%, 60%, 0.925);
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-up 1s ease-in-out infinite;
 }
+.scroll-up::after {
+  top: 30%;
+  animation-delay: 0.3s;
+}
+@keyframes scroll-up {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 90%;
+  }
+}
+
 a:hover,
 a:visited,
 a {
