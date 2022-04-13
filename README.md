@@ -17,13 +17,14 @@ This is a community based app established to provide healthcare solutions to low
 
 #### Screenshots
 
-![HOME](/screenshots/Screenshot%202022-03-29%20092906.png)
-![ABOUT US](/screenshots/Screenshot%202022-03-29%20093039.png)
-![OUR SERVICES](/screenshots/Screenshot%202022-03-29%20093219.png)
-![HOME](/screenshots/Screenshot%202022-03-29%20093301.png)
-![HOME](/screenshots/Screenshot%202022-03-29%20093329.png)
-![HOME](/screenshots/Screenshot%202022-03-29%20101500.png)
-![HOME](/screenshots/Screenshot%202022-03-29%20101825.png)
+![HOME](/new_screenshots/Screenshot%202022-04-13%20033723.png)
+![ABOUT US](/new_screenshots/Screenshot%202022-04-13%20034015.png)
+![OUR SERVICES](/new_screenshots/Screenshot%202022-04-13%20034106.png)
+![HOME](/new_screenshots/Screenshot%202022-04-13%20034134.png)
+![HOME](/new_screenshots/Screenshot%202022-04-13%20034212.png)
+![HOME](/new_screenshots/Screenshot%202022-04-13%20034235.png)
+![HOME](/new_screenshots/Screenshot%202022-04-13%20034306.png)
+![HOME](/new_screenshots/Screenshot%202022-04-13%20034358.png)
 
 ## Installation Requirements
 
@@ -41,9 +42,7 @@ This is a community based app established to provide healthcare solutions to low
 
 ## Known Bugs
 
-<li><em>the navigation bar appears below the images in the body therefore making it accessible only in certain parts of the website.
-</em></li>
-<li><em>the map does not load.
+<li><em>in case of any bugs feel free to open an issue.
 </em></li>
 
 ## Technologies Used
