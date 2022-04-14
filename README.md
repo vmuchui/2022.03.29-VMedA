@@ -17,15 +17,16 @@ This is a community based app established to provide healthcare solutions to low
 
 #### Screenshots
 
-![HOME](/new_screenshots/Screenshot%202022-04-13%20033723.png)
-![ABOUT US](/new_screenshots/Screenshot%202022-04-13%20034015.png)
-![OUR SERVICES](/new_screenshots/Screenshot%202022-04-13%20034106.png)
-![HOME](/new_screenshots/Screenshot%202022-04-13%20034134.png)
-![HOME](/new_screenshots/Screenshot%202022-04-13%20034212.png)
-![HOME](/new_screenshots/Screenshot%202022-04-13%20034235.png)
-![HOME](/new_screenshots/Screenshot%202022-04-13%20034306.png)
-![HOME](/new_screenshots/Screenshot%202022-04-13%20034358.png)
-
+![HOME](/new_screenshots/Screenshot%202022-04-14%20122004.png)
+![ABOUT US](/new_screenshots/Screenshot%202022-04-14%20122040.png)
+![ABOUT US](/new_screenshots/Screenshot%202022-04-14%20122104.png)
+![OUR SERVICES](/new_screenshots/Screenshot%202022-04-14%20122217.png)
+![OUR SERVICES](/new_screenshots/Screenshot%202022-04-14%20125601.png)
+![OUR TEAM](/new_screenshots/Screenshot%202022-04-14%20130414.png)
+![LOGIN](/new_screenshots/Screenshot%202022-04-14%20125723.png)
+![SIGNUP](/new_screenshots/Screenshot%202022-04-14%20125804.png)
+![CONTACTUS](/new_screenshots/Screenshot%202022-04-14%20125823.png)
+![CONTACTUS](/new_screenshots/Screenshot%202022-04-14%20125920.png)
 ## Installation Requirements
 
    <li><em>text-editor of your choice preferably vs-code</em>
