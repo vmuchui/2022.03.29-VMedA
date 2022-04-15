@@ -29,12 +29,10 @@ body {
 
 main {
   padding-top: 0px;
-  margin-left: 15rem;
+  margin-left: 5rem;
   transition: 0.4s ease-in-out;
 }
-main:hover {
-    margin-left: 5rem;
-}
+
 section {
   padding: 0;
   min-height: 100vh;
@@ -59,9 +57,10 @@ body::-webkit-scrollbar-thumb {
 
 
 .navbar {
+  z-index: 3;
   position: fixed;
   background-color: var(--bg-primary);
-  transition: width 600ms ease;
+  transition: width 600ms ease-in-out;
 }
 
 .navbar-nav {
@@ -242,6 +241,7 @@ li {
 }
 
 .scroll-up {
+  z-index: 2;
   width: 56px;
   height: 56px;
   background-color: hsla(253, 52%, 14%, 0.95);
@@ -264,10 +264,10 @@ li {
   transform: scale(1);
 }
 .scroll-up svg {
- width: 50%;
+  width: 50%;
   pointer-events: none;
 } 
-.scroll-up::before,
+/* .scroll-up::before,
 .scroll-up::after {
   content: '';
   position: absolute;
@@ -299,7 +299,7 @@ li {
     opacity: 0;
     top: 20%;
   }
-}
+} */
 
 a:hover,
 a:visited,
@@ -378,8 +378,10 @@ h2 {
 }
 .item.active img {
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   transition: 0.3s ease-in-out;
+  object-fit: cover;
+  object-position: center;
 }
 .carousel-caption {
   position: absolute;
