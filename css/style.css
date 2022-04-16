@@ -250,7 +250,6 @@ li {
   position: fixed;
   cursor: pointer;
   border-radius: 50%;
-  box-shadow: 0px 0px 20px hsla(341, 92%, 5%, 0.772);
 
   transform: scale(0.8);
   transition: 0.4s ease-in-out transform;
@@ -258,48 +257,33 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  animation: scroll-up 1s ease-in-out;
 
 }
 .scroll-up:hover {
   transform: scale(1);
+  box-shadow: 0px 0px 20px hsla(341, 92%, 5%, 0.772);
+}
+.scroll-up:focus{
+  outline: 1px solid hsla(253, 52%, 14%, 0.95);
 }
 .scroll-up svg {
   width: 50%;
   pointer-events: none;
-} 
-/* .scroll-up::before,
-.scroll-up::after {
-  content: '';
-  position: absolute;
-  top: 90%;
-  left: 50%;
-  border: 3px solid hsla(316, 45%, 60%, 0.925);
-  height: 10px;
-  width: 10px;
-  transform: translate(-50%, -100%) rotate(45deg);
-  border-bottom: transparent;
-  border-right: transparent;
   animation: scroll-up 1s ease-in-out infinite;
-}
-.scroll-up::after {
-  top: 30%;
-  animation-delay: 0.3s;
-}
+} 
+
 @keyframes scroll-up {
-  0% {
+  from {
     opacity: 0;
+    transform: rotateY(180deg);
   }
-  30% {
+
+  to {
     opacity: 1;
+    transform: rotateY(0deg);
   }
-  60% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    top: 20%;
-  }
-} */
+} 
 
 a:hover,
 a:visited,
